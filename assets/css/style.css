@@ -4,9 +4,48 @@
 @import url("src/owl-carousel/owl.theme.default.css");
 @import url("https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css");
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap");
+
+@font-face {
+    font-family: 'Samsung Sharp Sans';
+    src: url('fonts/SamsungSharpSans-Medium.eot');
+    src: url('fonts/SamsungSharpSans-Medium.eot?#iefix') format('embedded-opentype'),
+        url('fonts/SamsungSharpSans-Medium.woff2') format('woff2'),
+        url('fonts/SamsungSharpSans-Medium.woff') format('woff'),
+        url('fonts/SamsungSharpSans-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Samsung Sharp Sans';
+    src: url('fonts/SamsungSharpSans-Bold.eot');
+    src: url('fonts/SamsungSharpSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/SamsungSharpSans-Bold.woff2') format('woff2'),
+        url('fonts/SamsungSharpSans-Bold.woff') format('woff'),
+        url('fonts/SamsungSharpSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Samsung Sharp Sans';
+    src: url('fonts/SamsungSharpSans.eot');
+    src: url('fonts/SamsungSharpSans.eot?#iefix') format('embedded-opentype'),
+        url('fonts/SamsungSharpSans.woff2') format('woff2'),
+        url('fonts/SamsungSharpSans.woff') format('woff'),
+        url('fonts/SamsungSharpSans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
 body {
-  font-family: "Poppins", sans-serif;
-  font-size: 15px;
+  font-family: "Samsung Sharp Sans", sans-serif;
+  font-size: 16px;
   line-height: 1.6rem;
   letter-spacing: 0.004em;
   color: #958d9e;
