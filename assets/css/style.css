@@ -56,6 +56,8 @@ body {
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin: 0 auto;
+  max-width: 1024px;
 }
 
 a {
@@ -89,6 +91,8 @@ a:hover, a:active, a:focus {
   color: #000000;
   font-weight: 700;
   border-bottom: 1px solid #DCDCE9;
+  margin: 0 auto;
+  max-width: 1024px;
 }
 
 .appHeader.no-border {
@@ -202,6 +206,8 @@ a:hover, a:active, a:focus {
   padding-left: 4px;
   padding-right: 4px;
   padding-bottom: env(safe-area-inset-bottom);
+   margin: 0 auto;
+  max-width: 1024px;
 }
 
 .appBottomMenu.no-border {
